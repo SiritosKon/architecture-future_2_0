@@ -1,0 +1,127 @@
+{
+  "basePath": "/",
+  "baseUrl": "",
+  "editUrl": "",
+  "logoFile": "logo.svg",
+  "jsFile": "labels.js",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": [
+    "radar",
+    "tags",
+    "list"
+  ],
+  "colors": {
+    "foreground": "#1f2d3d",
+    "background": "#f4f6f9",
+    "highlight": "#2471a3",
+    "content": "#ffffff",
+    "text": "#4a4a4a",
+    "link": "#2471a3",
+    "border": "rgba(0, 0, 0, 0.12)",
+    "tag": "rgba(0, 0, 0, 0.06)"
+  },
+  "quadrants": [
+    {
+      "id": "languages-and-frameworks",
+      "title": "Интеграция и языки",
+      "description": "Как данные передаются между системами и на чём написаны сервисы доменов",
+      "color": "#5b8fb9"
+    },
+    {
+      "id": "methods-and-patterns",
+      "title": "Методологии",
+      "description": "Подходы к организации данных, управлению и инфраструктуре",
+      "color": "#2e9e6b"
+    },
+    {
+      "id": "platforms-and-operations",
+      "title": "Платформы и хранилища",
+      "description": "Где хранятся и обрабатываются данные",
+      "color": "#8e5cc2"
+    },
+    {
+      "id": "tools",
+      "title": "Инструменты данных",
+      "description": "Чем домены готовят данные, а сотрудники строят отчёты",
+      "color": "#d35400"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Используем",
+      "description": "Технология входит в целевую архитектуру",
+      "color": "#2e9e6b",
+      "radius": 0.4,
+      "strokeWidth": 2
+    },
+    {
+      "id": "trial",
+      "title": "Пробуем",
+      "description": "Внедряем на первых доменах и проверяем",
+      "color": "#2471a3",
+      "radius": 0.6,
+      "strokeWidth": 2
+    },
+    {
+      "id": "assess",
+      "title": "Изучаем",
+      "description": "Решение примем по итогам пилота",
+      "color": "#e8a202",
+      "radius": 0.8,
+      "strokeWidth": 2
+    },
+    {
+      "id": "hold",
+      "title": "Выводим",
+      "description": "Не развиваем, постепенно отказываемся",
+      "color": "#c0392b",
+      "radius": 1,
+      "strokeWidth": 2
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#f1235a",
+      "title": "Новое",
+      "titleShort": "N",
+      "description": "Новое"
+    },
+    "changed": {
+      "color": "#40a7d1",
+      "title": "Изменено",
+      "titleShort": "C",
+      "description": "Изменилось кольцо"
+    },
+    "default": {
+      "description": "Без изменений"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 16
+  },
+  "social": [],
+  "imprint": "",
+  "labels": {
+    "title": "Технологический радар «Будущее 2.0»",
+    "imprint": "",
+    "quadrant": "",
+    "quadrantOverview": "Подробнее",
+    "zoomIn": "Приблизить",
+    "filterByTag": "Отфильтровать по тегу",
+    "footer": "Проектная работа 11 спринта, курс «Архитектор ПО»",
+    "notUpdated": "Давно не менялось",
+    "notFound": "404",
+    "pageAbout": "Как пользоваться",
+    "pageOverview": "Обзор технологий",
+    "pageSearch": "Поиск",
+    "searchPlaceholder": "Что ищете?",
+    "metaDescription": ""
+  }
+}
