@@ -15,3 +15,8 @@ override.tf.json
 *_override.tf.json
 .terraformrc
 terraform.rc
+
+# Tech radar
+Task3/tech_radar/node_modules/
+Task3/tech_radar/.techradar/
+Task3/tech_radar/build/
