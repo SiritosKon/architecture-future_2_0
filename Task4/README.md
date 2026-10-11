@@ -22,4 +22,4 @@ terraform apply
 terraform destroy   # удалить созданные ресурсы
 ```
 
-`docker_host` в `terraform.tfvars` указывает на сокет podman machine на этой машине. На другой машине его нужно заменить на свой путь (`podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}'`) или на `unix:///var/run/docker.sock` для Docker Desktop.
+Перед запуском укажите в `docker_host` в `terraform.tfvars` путь к docker-сокету своей машины.
