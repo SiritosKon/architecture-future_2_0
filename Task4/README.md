@@ -4,8 +4,6 @@
 
 ![Диаграмма автоматизации развёртывания](diagram.png)
 
-Исходник: [`diagram.drawio`](diagram.drawio).
-
 Вручную готовятся только код конфигурации и хост, на котором создаются ресурсы. Сети, диски, образы и виртуальные машины создаёт Terraform. Локально облако смоделировано Docker-провайдером через сокет podman machine: контейнер играет роль VM, том — диска, bridge-сеть — сети, публикация порта — NAT.
 
 Конфигурация: [`main.tf`](main.tf), [`variables.tf`](variables.tf), [`outputs.tf`](outputs.tf), [`terraform.tfvars`](terraform.tfvars). Обоснование выбора ресурсов и параметров — в [`justification.md`](justification.md).
