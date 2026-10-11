@@ -4,11 +4,7 @@
 
 ![Технологический радар «Будущее 2.0»](tech-radar.png)
 
-Радар собран на [AOE Technology Radar](https://github.com/AOEpeople/aoe_technology_radar) из исходников в [`tech_radar/`](tech_radar):
-- [`config.json`](tech_radar/config.json) — квадранты, кольца, цвета и подписи;
-- [`radar/2026-09-01/`](tech_radar/radar/2026-09-01) — текущее состояние: SQL Server 2008, ESB, PowerBuilder, Power BI, Go/Java/Python;
-- [`radar/2026-10-11/`](tech_radar/radar/2026-10-11) — целевая архитектура. Новые технологии помечены «N», технологии, сменившие кольцо, — «C»;
-- [`public/labels.js`](tech_radar/public/labels.js) — подписывает точки названиями технологий прямо на круге.
+Радар собран на [AOE Technology Radar](https://github.com/AOEpeople/aoe_technology_radar) из исходников в [`tech_radar/`](tech_radar).
 
 Запуск:
 
@@ -18,12 +14,6 @@ npm install
 npm run build
 npm run serve   # http://localhost:3000
 ```
-
-Кольца радара:
-- **Используем (Adopt)** — технология входит в целевую архитектуру;
-- **Пробуем (Trial)** — внедряем на первых доменах и проверяем;
-- **Изучаем (Assess)** — решение примем по итогам пилота;
-- **Выводим (Hold)** — не развиваем и постепенно отказываемся.
 
 | Технология | Кольцо | Текущая или новая | Какой бизнес-сценарий поддерживает |
 |---|---|---|---|
